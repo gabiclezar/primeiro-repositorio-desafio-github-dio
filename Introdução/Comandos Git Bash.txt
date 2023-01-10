@@ -1,6 +1,52 @@
-git clone <link>(no caso https)
+1.git commit (Quando chegamos a determinado ponto em desenvolvimento, queremos salvar nossas alterações)
+mandar o que foi salvo para o github
+É preciso escrever uma mensagem simples e legível após o comando
+
+git commit -m "mensagem do commit"
+
+
+2.git push (empurrar) (Após fazer o commit de suas alterações, a próxima coisa a fazer é
+enviar suas alterações ao servidor remoto).
+
+-git push origin main
+
+
+
+3.git pull (O comando git pull é usado para obter as atualizações de um repositório remoto. Esse comando é uma combinação de git fetch e git merge, o que significa que, 
+quando usamos git pull, ele recebe as atualizações do repositório remoto (git fetch) e aplica imediatamente as alterações mais recentes em seu espaço de trabalho local (git merge).
+
+-git pull <repositório-remoto>
+
+
+ 
+
+4.git clone <link>(no caso https)
 (Git clone é uma comando para baixar o código-fonte existente
 de um repositório remoto (como, por exemplo, o Github). 
+
+
+
+5.git status (comando da informações sobre o status atual)
+
+. se esta atualizada
+. se precisa fazer o commit, push ou pull
+. Se os arquivos estão em fase de stage, fora dessa fase ou se não estão sendo rastreados
+. Se arquivos foram criados, modificados ou excluídos
+
+
+
+6.git add (Ao criarmos, modificarmos ou excluirmos um arquivo, essas alterações acontecerão em nosso espaço
+de trabalho local e não serão incluídas no próximo commit (a menos que alteremos as configurações).
+
+Precisamos usar o comando git add para incluir as alterações de um ou vários arquivos em nosso próximo commit.
+
+-git add <arquivo> para adicionar um único arquivo
+-git add -a ou git add . (adiciona tudo ao mesmo tempo)
+
+
+
+
+
 
 
 
