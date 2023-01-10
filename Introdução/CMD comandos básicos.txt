@@ -1,0 +1,7 @@
+DIR (diretório windows cmd)
+CD /(pasta C)
+CD .. (volta)
+CD windows (pasta windows)
+MKDIR (criar pasta)
+del (deletar arquivos)
+rmdir (deletar repositoriso)

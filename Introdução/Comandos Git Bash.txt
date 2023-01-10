@@ -1,0 +1,7 @@
+git clone <link>(no caso https)
+(Git clone é uma comando para baixar o código-fonte existente
+de um repositório remoto (como, por exemplo, o Github). 
+
+
+
+
